@@ -8,48 +8,45 @@ If the alerts are working, you will then monitor live traffic on the wire to det
 
 
 Days 1 and 2: Alert and Attacking Target 1
-
-Configure alerts in Kibana
-Attack a machine on the network.
-Capture the flag on the victim machine.
+- Configured alerts in Kibana
+- Attacked a machine on the network.
+- Captured the flag on the victim machine.
 
 
 Day 3: Wireshark Strikes Back
-
-Capture network traffic
-Investigate a number of suspicious activities
-Collect corporate misuse evidence
-Work in groups to create a presentation
+- Captured network traffic
+- Investigated a number of suspicious activities
+- Collected corporate misuse evidence
+- Worked in groups to create a presentation
 
 
 Day 4:
-
-Create an offensive red team analysis
-Create a defensive blue team analysis
-Create a network forensic analysis
+Created an offensive red team analysis
+Created a defensive blue team analysis
+Created a network forensic analysis
 
 
 Lab Environment
 
-This is a diagram of the network and the machines that will be used in this lab:
-Open the Hyper-V Manager to access the nested machines:
+This is a diagram of the network and the machines that were used in this lab:
+Used Hyper-V Manager to access the nested machines:
 
-ELK machine credentials: The same ELK setup that you created in Project 1. It holds the Kibana dashboards.
-Username: 
-Password: 
-IP Address: 192.168.1.100
+ELK machine credentials: The same ELK setup that I created in Project 1. It holds the Kibana dashboards.
+- Username: 
+- Password: 
+- IP Address: 192.168.1.100
 
 
-Kali: A standard Kali Linux machine for use in the penetration test on Day 1.
-Username:
-Password:
-IP Address: 192.168.1.90
+Kali: A standard Kali Linux machine I used in the penetration test on Day 1.
+- Username:
+- Password:
+- IP Address: 192.168.1.90
 
 
 Capstone: Filebeat and Metricbeat are installed and will forward logs to the ELK machine.
-IP Address: 192.168.1.105
+- IP Address: 192.168.1.105
 Please note that this VM is in the network solely for the purpose of testing alerts.
 
 
 Target 1: Exposes a vulnerable WordPress server.
-IP Address: 192.168.1.110
+- IP Address: 192.168.1.110
